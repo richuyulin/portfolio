@@ -1,0 +1,153 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto Mono', monospace; /* Add via Google Fonts */
+    background: linear-gradient(135deg, #6a11cb, #2575fc, #ff6ec4); /* Vibrant gradient */
+    background-size: 300% 300%; /* Smooth gradient animation */
+    animation: gradientAnimation 10s ease infinite; /* Infinite animation */
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px #000;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #ff69b4;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #ff69b4;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about h1 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 50px;
+}
+
+.project-card {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+.project-card h2 {
+    margin-bottom: 10px;
+    color: #ff69b4;
+}
+
+.project-card a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.project-card a:hover {
+    color: #fff;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+.contact h1 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: #ff69b4;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    font-size: 0.9em;
+    border-top: 2px solid #ff69b4;
+}
+
+/* Gradient Animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
