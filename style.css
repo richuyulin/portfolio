@@ -1,9 +1,9 @@
 /* General Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #6a11cb, #2575fc, #ff6ec4);
-    background-size: 300% 300%;
-    animation: gradientAnimation 10s ease infinite;
+    background: linear-gradient(135deg, #6a11cb, #2575fc, #ff6ec4); /* Vibrant gradient */
+    background-size: 300% 300%; /* Smooth gradient animation */
+    animation: gradientAnimation 10s ease infinite; /* Infinite animation */
     color: #333;
     margin: 0;
     padding: 0;
